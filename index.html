@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello Bulma!</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <link rel="stylesheet" href="./css/custom_css.css" />
+  </head>
+  <body>
+    <nav class="navbar is-black" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item">
+          <i class="icon is-large has-text-info fab fa-twitter" id="twitter-nav"></i>
+        </a>
+        <a class="navbar-item">
+          <h1 class="title">COMP426Tweet</h1>
+        </a>
+      </div>
+        <div class="navbar-item">
+          <div class="navbar-end">
+            <button class="button is-link" onclick="location.href='./login/index.html'">Sign in!</button>
+          </div>
+        </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">
+          Welcome!
+        </h1>
+        <p class="subtitle">Here is your feed! <strong></strong></p>
+      </div>
+    </section>
+    
+    <label for="#post-tweet"> Enter your tweet! Max 280 chars. </label>
+      <div class="field">
+        <div class="control">
+          <textarea id='post-tweet'
+            class="textarea is-info is-small"
+            placeholder="Write your tweet here..."
+            maxlength="280"
+          ></textarea>
+        </div>
+      </div>
+      <div class="control">
+        <button type="submit" id="tweet-btn" class="button is-primary">Submit</button>
+      </div>
+ 
+    <div class="tweet-container"></div>
+    <script src="node_modules/axios/dist/axios.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="module" src="js/render.js"></script>
+  </body>
+</html>

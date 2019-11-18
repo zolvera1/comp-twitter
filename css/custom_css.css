@@ -1,0 +1,24 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #B0D9F7;
+}
+h1.title {
+    color: white;
+}
+img {
+    border-radius: 50%;
+}
+#tweet-btn {
+    margin-bottom: 10px;
+}
+.delete {
+    background-color: #ff0011;
+}
+svg {
+    pointer-events: none;
+}
+path {
+    pointer-events: none;
+}
