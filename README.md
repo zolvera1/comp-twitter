@@ -10,45 +10,37 @@ git clone the project and run npm install to install the dependencies.
 
 What things you need to install the software and how to install them
 
-```
-Node.JS
-Jquery
-Bulma 
-Any other IDE
-```
+
+*[Node.JS](https://nodejs.org/en/)
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+First clone the repository. 
 
 ```
-Give the example
+git clone https://github.com/zolvera1/comp-twitter.git
 ```
 
-And repeat
+run npm install to download dependencies
 
 ```
-until finished
+npm install
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
+Then run npx browser-sync start -sw to run it live. 
 
 
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [jQuery](https://jquery.com/) - The web framework used
+* [Bulma](https://bulma.io/) - CSS Framework
+* [Axios](https://github.com/axios/axios) - Used to communicate with backend
 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Zabdi Sam Gomez Olvera** 
 
 ## License
 
